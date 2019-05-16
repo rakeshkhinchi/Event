@@ -1,0 +1,21 @@
+<resources>
+    <string name="action_settings">Settings</string>
+    <string name="action_today">Today</string>
+    <string name="action_day_view">Day view</string>
+    <string name="action_three_day_view">3 day view</string>
+    <string name="action_week_view">Week view</string>
+    <string name="app_name">Event App</string>
+
+    <string name="action_month_view">Month view</string>
+    <string name="action_event_list">Event list</string>
+
+    <integer-array name="color_events">
+        <item>@color/event_color_01</item>
+        <item>@color/event_color_02</item>
+        <item>@color/event_color_03</item>
+        <item>@color/event_color_04</item>
+
+
+    </integer-array>
+
+</resources>

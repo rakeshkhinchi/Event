@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.amura.rakesh.event.MainActivity">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/action_event_list"
+            android:checked="true"
+            android:orderInCategory="100"
+            android:title="@string/action_event_list"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/action_day_view"
+            android:orderInCategory="100"
+            android:title="@string/action_day_view"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_three_day_view"
+            android:orderInCategory="100"
+            android:title="@string/action_three_day_view"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/action_week_view"
+            android:orderInCategory="100"
+            android:title="@string/action_week_view"
+            app:showAsAction="never" />
+
+
+    </group>
+
+
+</menu>
